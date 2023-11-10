@@ -173,7 +173,7 @@ export function responseData(results){
 export function ResponsePostLogin(response) {
     if (response && response.token) {
       console.log('Token User:', response.token);
-      setCookieWithExpireHour('user_token', response.token, 2);
+      setCookieWithExpireHour('Login', response.token, 3);
       window.location.href = 'https://kimseokgis.advocata.me/';
       alert("Selamat Datang")
     } else {
