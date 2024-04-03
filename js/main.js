@@ -8,10 +8,10 @@ import {onClick} from 'https://jscroot.github.io/element/croot.js';
 import {getAllCoordinates} from './controller/cog.js';
 
 
-// let cookie = getCookie("Login")
-// if (cookie == ""){
-//     window.location.href = "login.html"
-// }
+let cookie = getCookie("Login")
+if (cookie == ""){
+    window.location.href = "login.html"
+}
 
 onClick('popup-closer',onClosePopupClick);
 onClick('insertmarkerbutton',onSubmitMarkerClick);
